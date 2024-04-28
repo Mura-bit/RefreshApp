@@ -10,7 +10,7 @@ export const handlleTimeout2 = () => {
 
 setTimeout(handleTimeout, 2000);
 setTimeout(handlleTimeout2, 3000);
-setTimeout(() => {
+setTimeout(() => {  
     console.log("More timing out");
 }, 4000)
 
