@@ -3,7 +3,8 @@ import {
   handlleTimeout2,
   greeter,
 } from "./listItems/listItems.js";
-import twoSum from "./leetCode/chalanges.js"
+import twoSum from "./leetCode/chalanges.js";
+import { sum } from "./leetCode/bigO.js";
 import './App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         {handleTimeout} {handlleTimeout2} {greeter}
       </div>
       <div>
-        {twoSum}
+        {twoSum}, {sum}
       </div>
     </div>
   );
